@@ -1,0 +1,6 @@
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\bin\Debug\ExamProject.exe.config
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\obj\Debug\ExamProject.csprojResolveAssemblyReference.cache
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\bin\Debug\ExamProject.exe
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\bin\Debug\ExamProject.pdb
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\obj\Debug\ExamProject.exe
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\obj\Debug\ExamProject.pdb

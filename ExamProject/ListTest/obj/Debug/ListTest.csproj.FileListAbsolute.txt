@@ -1,0 +1,7 @@
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\ListTest\obj\Debug\ListTest.csprojResolveAssemblyReference.cache
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\ListTest\bin\Debug\ListTest.dll
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\ListTest\bin\Debug\ListTest.pdb
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\ListTest\bin\Debug\ExamProject.exe
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\ListTest\bin\Debug\ExamProject.pdb
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\ListTest\obj\Debug\ListTest.dll
+D:\Git Repository\DoublyLinkedList\ExamRepo\ExamProject\ListTest\obj\Debug\ListTest.pdb
