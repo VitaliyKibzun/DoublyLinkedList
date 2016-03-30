@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoublyLinkedList.cs" />
     <Compile Include="ILinkedList.cs" />
     <Compile Include="IPrintable.cs" />
     <Compile Include="ISortable.cs" />

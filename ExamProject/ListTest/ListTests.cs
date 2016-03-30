@@ -13,7 +13,7 @@ namespace ListTest
             ILinkedList<int> list = PrepareListof10Int();
             int expectedLength = 10;
 
-            Assert.AreEqual(expectedLength, list.Lenght(), "Incorrect length!");
+            Assert.AreEqual(expectedLength, list.Length(), "Incorrect length!");
         }
 
         [TestMethod]
@@ -52,9 +52,9 @@ namespace ListTest
             Assert.IsTrue(works, "The list is wrong!");
         }
 
-        private LinkedList<int> PrepareListof10Int()
+        private DoublyLinkedList<int> PrepareListof10Int()
         {
-            LinkedList<int> list = new LinkedList<int>();
+            DoublyLinkedList<int> list = new DoublyLinkedList<int>();
             list.AddFirst(1);
             list.AddLast(2);
             list.AddLast(3);
@@ -70,9 +70,9 @@ namespace ListTest
 
         }
 
-        private LinkedList<string> PrepareListof4Strings()
+        private DoublyLinkedList<string> PrepareListof4Strings()
         {
-            LinkedList<string> list = new LinkedList<string>();
+            DoublyLinkedList<string> list = new DoublyLinkedList<string>();
             list.AddFirst("one");
             list.AddLast("two");
             list.AddLast("three");
