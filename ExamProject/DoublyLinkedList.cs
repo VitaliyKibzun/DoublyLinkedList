@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ExamProject
 {
-    class DoublyLinkedList<T> : ILinkedList<T>, ISortable, IPrintable where T : IComparable<T>
+    class DoublyLinkedList<T> : ILinkedList<T>, IEnumerable<T>, ISortable, IPrintable where T : IComparable<T>
     {
         public Node<T> FirstNode { get; private set; }
         public Node<T> LastNode { get; private set; }
@@ -250,6 +251,19 @@ namespace ExamProject
             data1 = data2;
             data2 = temp;
         }
+
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return new LinkedListEnumerator<T>(this.FirstNode);
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
+
 
     }
 }

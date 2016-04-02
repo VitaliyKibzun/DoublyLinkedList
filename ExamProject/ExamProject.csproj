@@ -45,6 +45,7 @@
     <Compile Include="ILinkedList.cs" />
     <Compile Include="IPrintable.cs" />
     <Compile Include="ISortable.cs" />
+    <Compile Include="LinkedListEnumerator.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

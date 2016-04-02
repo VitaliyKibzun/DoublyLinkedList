@@ -11,9 +11,24 @@ namespace ExamProject
         static void Main(string[] args)
         {
             DoublyLinkedList<int> list = new DoublyLinkedList<int>();
+            
+
             list.AddLast(10);
+            foreach (int i in list)
+            {
+                Console.Write(i + " ");
+            }
+            Console.WriteLine();
+
             list.AddLast(8);
             list.AddLast(9);
+
+            foreach (int i in list)
+            {
+                Console.Write(i + " ");
+            }
+            Console.WriteLine();
+
             list.AddFirst(10);
             list.AddFirst(43);
             list.Print();
